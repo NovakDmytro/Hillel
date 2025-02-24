@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.reg-form-container {
+    width: 500px;
+    height: 656px;
+    align-items: center;
+}
+
+.form-cell {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    align-content: center;
+    display: block;
+}
+
+.form-cell>input {
+    border: none;
+}
+
+.reg-form-reg-btn {
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    background: #46a358;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    border: none;
+}
